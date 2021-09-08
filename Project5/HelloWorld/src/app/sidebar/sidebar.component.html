@@ -1,0 +1,29 @@
+<aside>Aside</aside>
+
+
+<p [ngClass]= "{centralise:true}">
+  hello
+</p>
+<p *ngIf= true>I am showing because I meet criteria
+
+</p>
+<p *ngFor ="let name of names">
+{{name.belt}}
+<span [ngStyle]="{background :name.belt}">
+  {{name.belt}}
+</span>
+
+</p>
+
+<style>
+  .blue{
+    color: blue;
+  }
+  .red{
+    color: red;
+  }
+  .centralise{
+    text-align: center;
+  }
+</style>
+<button (click)="logIt()">LogMe</button>

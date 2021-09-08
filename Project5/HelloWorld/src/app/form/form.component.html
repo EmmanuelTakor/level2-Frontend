@@ -1,0 +1,84 @@
+<fieldset>
+  <input type="checkbox" name="Fullstack" value="Fullstack" (click) ="showFullStack()">Fullstack Web Development
+  <input type="checkbox" name="Cyber Security" value="CyberSecurity" (click) ="showCyberSecurity()">Cyber Security & CEH
+  <input type="checkbox" name="DigitalMarketing" value="DigitalMarketing" (click) ="showDigitalMarketing()">Digital Marketing
+</fieldset>
+
+
+<form *ngIf="displayFull">
+
+  <h4>Full Stack Web Development</h4>
+ <div>
+  <label for="Names">Names:</label>
+  <input id="Names" type="text" placeholder="e.g Emmanuel Takor">
+ </div>
+<div>
+  <label for="Age">Age:</label>
+<input id="Age" type="text" placeholder=" e.g 25">
+
+</div>
+<div>
+  <label for="Email">Email:</label>
+<input id="Email" type="text" placeholder="e.g emmanueltakor@yahoo.com">
+
+</div>
+<div>
+  <label for="Phone">Phone number:</label>
+<input id="Phone" type="text" placeholder="e.g 67895439">
+
+</div>
+
+
+</form>
+
+
+<form *ngIf="displayCyb" style="margin-top: 5%;">
+  <h4>Cyber Security &CEH</h4>
+ <div>
+  <label for="Names">Names:</label>
+  <input id="Names" type="text" placeholder="e.g Emmanuel Takor">
+ </div>
+<div>
+  <label for="Age">Age:</label>
+<input id="Age" type="text" placeholder=" e.g 25">
+
+</div>
+<div>
+  <label for="Email">Email:</label>
+<input id="Email" type="text" placeholder="e.g emmanueltakor@yahoo.com">
+
+</div>
+<div>
+  <label for="Phone">Phone number:</label>
+<input id="Phone" type="text" placeholder="e.g 67895439">
+
+</div>
+
+
+</form>
+
+
+<form *ngIf="displayDig" style="margin-top: 5%;">
+  <h4>Digital Marketing</h4>
+ <div>
+  <label for="Names">Names:</label>
+  <input id="Names" type="text" placeholder="e.g Emmanuel Takor">
+ </div>
+<div>
+  <label for="Age">Age:</label>
+<input id="Age" type="text" placeholder=" e.g 25">
+
+</div>
+<div>
+  <label for="Email">Email:</label>
+<input id="Email" type="text" placeholder="e.g emmanueltakor@yahoo.com">
+
+</div>
+<div>
+  <label for="Phone">Phone number:</label>
+<input id="Phone" type="text" placeholder="e.g 67895439">
+
+</div>
+
+
+</form>
